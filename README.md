@@ -6,23 +6,28 @@ Big s/o to paul, my teammate on this project :
 
 [<img src='https://github.com/youngboi02.png' style="border-radius: 58%;" alt='Paul Prout' height='58'>](https://github.com/youngboi02)  
 
-Nous hésitons entre 2 algorithmes de création de labyrinthe : 
-* Depth-First Search (Recherche en profondeur d'abord)
-* Fusion aléatoire de chemins
+
+### Maze generatiob processus
+
+We hesitate between 2 maze generation algorithms:
+* <a href="https://en.wikipedia.org/wiki/Depth-first_search">Depth-First Search</a>
+* <a href="https://en.wikipedia.org/wiki/Kruskal%27s_algorithm">Kruskal's algorithm (Randomized)</a>
 
 
-Finalement, j'ai choisi la méthode Depth First Search qui paraissait un peu plus
-simple à mes yeux au moment du choix.
-Voici les différentes étapes de l'algorithme : 
+Finally, I chose the Depth First Search method which seemed a bit eaisier at the time of choice.
 
-### Méthode de Depth First Search
+### Depth First Search method
+Here are the different steps of the algorithm:
 
-1. Sélectionnez au hasard un nœud (ou une cellule) N.
-2. Poussez la cellule N dans une file d'attente Q.
-3. Marquez la cellule N comme visitée.
-4. Sélectionnez au hasard une cellule adjacente A de la cellule N qui n'a pas été visitée. Si tous les voisins de N ont été visités :
-- Continuez à retirer les éléments de la file d'attente Q jusqu'à ce qu'une cellule soit rencontrée avec au moins un voisin non visité - affectez cette cellule à N et passez à l'étape 4.
-- Si aucune cellule n'existe : stop.
-5. Cassez le mur entre N et A.
-6. Attribuez la valeur A à N.
-7. Passez à l'étape 2.
+1. Randomly select a node (or a cell) N.
+2. Push cell N into a Q queue.
+3. Mark cell N as visited.
+4. Randomly select an adjacent cell A from cell N that has not been visited. If all neighbors of N have been visited:
+- Continue removing items from queue Q until a cell is encountered with at least one unvisited neighbor - assign this cell to N and go to step 4.
+- If no cell exists: stop.
+5. Break the wall between N and A.
+6. Assign the value A to N.
+7. Go to step 2.
+
+### Maze solving
+For this part, we instantly went for the method of ...
