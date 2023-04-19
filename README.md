@@ -7,7 +7,9 @@ Big s/o to paul, my teammate on this project :
 [<img src='https://github.com/youngboi02.png' style="border-radius: 58%;" alt='Paul Prout' height='58'>](https://github.com/youngboi02)  
 
 
-### Maze generatiob processus
+## Generation
+
+### Maze generation processus
 
 We hesitate between 2 maze generation algorithms:
 * <a href="https://en.wikipedia.org/wiki/Depth-first_search">Depth-First Search</a>
@@ -28,6 +30,8 @@ Here are the different steps of the algorithm:
 5. Break the wall between N and A.
 6. Assign the value A to N.
 7. Go to step 2.
+
+## Resolution
 
 ### Maze solving
 For this part, we instantly went for the method of ...
