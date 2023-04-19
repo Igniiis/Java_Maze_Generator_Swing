@@ -1,5 +1,10 @@
-# Projet Labyrinthe
+# Maze Generator/Solver
  
+During my Degree, I had this project of doing both a generator and a solver of Maze. We were free to choose wich method to use.
+
+Big s/o to paul, my teammate on this project : 
+
+[<img src='https://github.com/youngboi02.png' style="border-radius: 58%;" alt='Paul Prout' height='58'>](https://github.com/youngboi02)  
 
 Nous hésitons entre 2 algorithmes de création de labyrinthe : 
 * Depth-First Search (Recherche en profondeur d'abord)
