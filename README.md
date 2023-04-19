@@ -1,6 +1,12 @@
 # Maze Generator/Solver
  
-During my Degree, I had this project of doing both a generator and a solver of Maze. We were free to choose wich method to use.
+ <div align="center">
+    <img src="https://github.com/Igniiis/Java_Maze_Generator_Swing/blob/main/image/logo.png" width="350"/>
+ </div>
+ 
+During my Degree, I had this project of doing both a generator and a solver of Maze. We were free to choose wich method to use. <br>
+All the project was on **Java**, the generation and resolution was in *java vanilla* and for the UI we had to use *Java Swing*. <br>
+*note : if you are french (or crazy) you can read our pdf wich is in the repo.*
 
 Big s/o to paul, my teammate on this project : 
 
@@ -34,4 +40,15 @@ Here are the different steps of the algorithm:
 ## Resolution
 
 ### Maze solving
-For this part, we instantly went for the method of ...
+For this part, we instantly went for the method of Depth-first search (again T.T) because we were forced to by the university. It was pretty the same logic as its counter part in Generation and so this part was made *very* quickly.
+
+## UI
+Now that everything was done, we only had to do the UI part, in where we were forced to use Java Swing. We did something pretty classic : 
+<div align="center">
+   <img src="https://github.com/Igniiis/Java_Maze_Generator_Swing/blob/main/savedImageMaze.png" width="650" />
+</div>
+
+
+## Conclusion
+It is always a great project to do a maze generator and/or solver. I was happy to do it and I am proud of the result :rose:. Thank you to everyone who read all of this, hope it was interested :smile:. <br>
+See ya
